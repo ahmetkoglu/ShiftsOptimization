@@ -1,0 +1,10 @@
+{
+    "employees": ["Ahmet", "Kerem", "Deniz", "Berkay", "Can", "Ece"],
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "shifts": ["Morning", "Evening", "Night"],
+    "constraints": {
+        "min_staff_per_shift": 1,
+        "max_weekly_shifts": 4,
+        "prevent_double_shifts": true
+    }
+}
